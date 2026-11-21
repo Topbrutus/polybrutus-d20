@@ -1,5 +1,14 @@
 # POLYBRUTUS 20D — Exact Euclidean 25-point metric and fourteenfold ideal graph mode
 
+## Official publicly verified scientific release
+
+- **Zenodo DOI:** [10.5281/zenodo.24409424](https://doi.org/10.5281/zenodo.24409424), [public record 24409424](https://zenodo.org/records/24409424), verified via public Zenodo REST API.
+- **Frozen scientific source:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d20/tree/v0.1.0), science commit `3e9ee3117f1c3c3e5ffc80236fa2026a5d825ce3`.
+- **Independent exact CI:** [GitHub Actions D20 run 44849161251](https://github.com/Topbrutus/polybrutus-d20/actions/runs/44849161251) successfully executed both exact metric and independently coded rational spectral checks.
+- **Three archived files:** immutable Git-tagged source ZIP, full mathematical note PDF, 300-pair exact labelled squared-distance JSON certificate; remote checksums verified.
+- **Scientific scope:** exact affine Euclidean metric 20D and selected ideal graph model, not a physical extra dimension or universal theorem novelty.
+
+
 **Human research author:** Gabriel St-Pierre, independent researcher.  
 **Research status:** reproducible mathematical preprint, not independently peer reviewed by a human.  
 **Generative AI disclosure:** OpenAI ChatGPT (Astra) substantially assisted exact mathematics, two separately programmed verification methods, theoretical spectral model, scientific writing and release operations. It is not an author.

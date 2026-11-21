@@ -1,0 +1,22 @@
+name: Verify Polybrutus D20 exact certificate
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install exact symbolic dependency
+        run: python -m pip install sympy==1.14.0
+      - name: Certify D20 300-pair Euclidean metric and selected ideal graph
+        run: python src/verify_d20.py
+      - name: Independently verify 300 rational distances and spectral roots
+        run: python tests/independent_d20.py

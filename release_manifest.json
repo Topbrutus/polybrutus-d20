@@ -3,7 +3,7 @@
   "dimension": 20,
   "repository": "Topbrutus/polybrutus-d20",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 25,
   "pairs": 300,
   "affine_rank": 20,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24409343",
   "parent_github_tag": "Topbrutus/polybrutus-d19@v0.1.0",
   "parent_tag_commit": "1aa9721edcf6eb374a301863a5c1c4e566e69838",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "3e9ee3117f1c3c3e5ffc80236fa2026a5d825ce3",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24409424,
+  "zenodo_doi": "10.5281/zenodo.24409424",
   "scientific_delta": "Exact rank-20 25-vertex labelled metric preserving 276 predecessor distances; selected ideal graph eigenvalue 25/2 multiplicity 14.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted exact symbolic mathematics, separately programmed rational verifier, writing and release; not an author.",
-  "verification": "Primary exact and independently coded rational checkers PASS locally; GitHub CI pending",
-  "next_action": "Create private D20 GitHub repository, pass CI, freeze v0.1.0 source, stage and verify one Zenodo draft before public publication."
+  "verification": {
+    "coordinate_affine_rank": "PASS",
+    "centered_gram_rank": "PASS",
+    "exact_psd_gram_factorization": "PASS",
+    "predecessor_labelled_pairs": "276/276 PASS",
+    "new_pairs": "24/24 PASS",
+    "independent_rational_distances": "300/300 PASS",
+    "negative_controls": "4/4 PASS",
+    "chosen_ideal_graph_eigenvalues": "25/2 x14; 12 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Only on NEXT user go start D21 using immutable D20 v0.1.0: target 26 vertices, 325 pair distances, preserve 300 predecessor distances, add 25 new distances of square 2R² and exact affine rank 21. Do not start D21 before another go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44849161251,
+    "conclusion": "success",
+    "head_sha": "3e9ee3117f1c3c3e5ffc80236fa2026a5d825ce3"
+  },
+  "github_main_note": "Post-publication DOI metadata and refreshed Git blob index can advance main, science tag remains immutable.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D20_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 180483,
+      "sha256": "193244200bfff4c59101b22ca4d01c61bca40208ef9ccf586c06b1fa26cb4358"
+    },
+    {
+      "name": "POLYBRUTUS_20D_NOTE.pdf",
+      "size": 141985,
+      "sha256": "1fb52531b43a3c079c906374cf8868b7610e45752aedcdb76b3a9db1f179c3bb"
+    },
+    {
+      "name": "certificate_d20.json",
+      "size": 24275,
+      "sha256": "85764e628edafdc94903e73a4c33f2ce1a8767682a1ee273c9ab5fad3ee87752"
+    }
+  ],
+  "publication_approval": "Topbrutus established 'go' as approval of one new dimension and associated GitHub/Zenodo publication; 'go' received for D20."
 }
